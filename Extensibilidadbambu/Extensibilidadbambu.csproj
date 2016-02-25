@@ -48,13 +48,19 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="Apache.NMS.ActiveMQ">
-      <HintPath>..\..\..\..\Downloads\Apache.NMS.ActiveMQ-1.7.1-bin\build\net-4.0\release\Apache.NMS.ActiveMQ.dll</HintPath>
+    <Reference Include="System.Configuration" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Apache.NMS">
-      <HintPath>..\..\..\..\Downloads\Apache.NMS.ActiveMQ-1.7.1-bin\lib\Apache.NMS\net-4.0\Apache.NMS.dll</HintPath>
+      <HintPath>libs\Apache.NMS.dll</HintPath>
     </Reference>
-    <Reference Include="System.Configuration" />
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Apache.NMS.ActiveMQ">
+      <HintPath>libs\Apache.NMS.ActiveMQ.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="com.extensibilidadbambu.activemq\ConectorActiveMQ.cs" />
@@ -69,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>

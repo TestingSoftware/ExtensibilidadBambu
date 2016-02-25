@@ -15,7 +15,8 @@ namespace Extensibilidadbambu
 	{
 		public static void Main(string[] args)
 		{
-			
+			ConsumirPedido cp = new ConsumirPedido ();
+			cp.Launcher ();
 		}
 	}
 }

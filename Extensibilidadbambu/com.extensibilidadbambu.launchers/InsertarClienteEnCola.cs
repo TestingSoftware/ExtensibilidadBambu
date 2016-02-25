@@ -7,7 +7,7 @@ namespace Extensibilidadbambu.com.extensibilidadbambu.launchers
 		{
 		}
 
-		public static void Main(String []args)
+		public void Main()
 		{
 			//TODO colocar las URL en un archivo de configuración aparte.
 			com.extensibilidadbambu.librerias.Rest rest = new com.extensibilidadbambu.librerias.Rest ();
