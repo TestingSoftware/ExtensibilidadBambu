@@ -63,7 +63,9 @@
     <Compile Include="com.extensibilidadbambu.librerias\Pedido.cs" />
     <Compile Include="com.extensibilidadbambu.librerias\Cliente.cs" />
     <Compile Include="com.extensibilidadbambu.librerias\Configuracion.cs" />
-    <Compile Include="com.extensibilidadbambu.main\ConsumirPedido.cs" />
+    <Compile Include="com.extensibilidadbambu.launchers\InsertarClienteEnCola.cs" />
+    <Compile Include="com.extensibilidadbambu.librerias\Rest.cs" />
+    <Compile Include="com.extensibilidadbambu.launchers\ConsumirPedido.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -71,6 +73,5 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="com.extensibilidadbambu.librerias\" />
-    <Folder Include="com.extensibilidadbambu.main\" />
   </ItemGroup>
 </Project>
