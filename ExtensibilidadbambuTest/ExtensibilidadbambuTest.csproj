@@ -31,9 +31,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Extensibilidadbambu\Extensibilidadbambu.csproj">
+      <Project>{6B21A2CD-5699-4637-ABEB-4AD06C044DB9}</Project>
+      <Name>Extensibilidadbambu</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

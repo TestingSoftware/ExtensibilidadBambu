@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using System;
+using Extensibilidadbambu.com.extensibilidadbambu.launchers;
 
 namespace ExtensibilidadbambuTest
 {
@@ -9,6 +10,8 @@ namespace ExtensibilidadbambuTest
 		[Test ()]
 		public void TestCase ()
 		{
+			String []args = {"1","2"};
+			InsertarClienteEnCola.Main (args);
 		}
 	}
 }
