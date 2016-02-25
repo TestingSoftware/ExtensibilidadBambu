@@ -1,0 +1,13 @@
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\obj\Debug\Extensibilidadbambu.csprojResolveAssemblyReference.cache
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Extensibilidadbambu.exe.config
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Extensibilidadbambu.exe
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Extensibilidadbambu.pdb
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Apache.NMS.dll
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Apache.NMS.pdb
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\obj\Debug\Extensibilidadbambu.exe
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\obj\Debug\Extensibilidadbambu.pdb
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Ionic.Zlib.dll
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\nunit.framework.dll
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Apache.NMS.ActiveMQ.dll
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Apache.NMS.ActiveMQ.pdb
+C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Apache.NMS.ActiveMQ.xml
