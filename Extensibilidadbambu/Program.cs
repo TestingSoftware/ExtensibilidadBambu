@@ -15,9 +15,7 @@ namespace Extensibilidadbambu
 	{
 		public static void Main(string[] args)
 		{
-			ConectorActiveMQ sa = new ConectorActiveMQ();
-			sa.enviarMensaje ("COLA_SHARP", "Soy un mensajito");
-			//Console.Write(sa.hayNuevo("COLA_SHARP"));
+			
 		}
 	}
 }

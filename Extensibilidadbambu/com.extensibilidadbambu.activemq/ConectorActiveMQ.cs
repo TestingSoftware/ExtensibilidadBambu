@@ -17,16 +17,16 @@ namespace Extensibilidadbambu.com.extensibilidadbambu.activemq
 	/// </summary>
 	public class ConectorActiveMQ
 	{
-		private String URI = "tcp://activemq:61616";
+		private String cadenaConexion;
 
 		public ConectorActiveMQ()
 		{
-			
+			this.cadenaConexion = new Configuracion().colaConexion();
 		}
 
 		public void enviarMensaje(String cola, String mensaje)
 		{
-			Uri connecturi = new Uri(URI);
+			Uri connecturi = new Uri(cadenaConexion);
 			IConnectionFactory factory = new NMSConnectionFactory(connecturi);
 
 			using(IConnection connection = factory.CreateConnection())
@@ -37,9 +37,6 @@ namespace Extensibilidadbambu.com.extensibilidadbambu.activemq
 				using(IMessageProducer producer = session.CreateProducer(destination))
 				{
 					connection.Start();
-					//producer.Persistent = true;
-
-					// Send a message
 					ITextMessage request = session.CreateTextMessage(mensaje);
 					producer.Send(request);
 				}
@@ -49,7 +46,7 @@ namespace Extensibilidadbambu.com.extensibilidadbambu.activemq
 		public String hayNuevo(String cola)
 		{
 			String mensaje = null;
-			Uri connecturi = new Uri(URI);
+			Uri connecturi = new Uri(cadenaConexion);
 			IConnectionFactory factory = new NMSConnectionFactory(connecturi);
 
 			using(IConnection connection = factory.CreateConnection())
@@ -60,9 +57,6 @@ namespace Extensibilidadbambu.com.extensibilidadbambu.activemq
 				using(IMessageConsumer consumer = session.CreateConsumer(destination))
 				{
 					connection.Start();
-					//producer.Persistent = true;
-
-					// Consume a message
 					ITextMessage message = consumer.Receive(new TimeSpan(0,0,1)) as ITextMessage;
 					if(message != null)
 					{
