@@ -11,3 +11,14 @@ C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibili
 C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Apache.NMS.ActiveMQ.dll
 C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Apache.NMS.ActiveMQ.pdb
 C:\Users\Dalaian\Documents\SharpDevelop Projects\Extensibilidadbambu\Extensibilidadbambu\bin\Debug\Apache.NMS.ActiveMQ.xml
+C:\Users\vic\Documents\Projects\TestingSoftware\ExtensibilidadBambu.git\Extensibilidadbambu\bin\Debug\Extensibilidadbambu.exe.config
+C:\Users\vic\Documents\Projects\TestingSoftware\ExtensibilidadBambu.git\Extensibilidadbambu\bin\Debug\Extensibilidadbambu.exe
+C:\Users\vic\Documents\Projects\TestingSoftware\ExtensibilidadBambu.git\Extensibilidadbambu\bin\Debug\Extensibilidadbambu.pdb
+C:\Users\vic\Documents\Projects\TestingSoftware\ExtensibilidadBambu.git\Extensibilidadbambu\bin\Debug\Apache.NMS.ActiveMQ.dll
+C:\Users\vic\Documents\Projects\TestingSoftware\ExtensibilidadBambu.git\Extensibilidadbambu\bin\Debug\Apache.NMS.dll
+C:\Users\vic\Documents\Projects\TestingSoftware\ExtensibilidadBambu.git\Extensibilidadbambu\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vic\Documents\Projects\TestingSoftware\ExtensibilidadBambu.git\Extensibilidadbambu\bin\Debug\RestSharp.dll
+C:\Users\vic\Documents\Projects\TestingSoftware\ExtensibilidadBambu.git\Extensibilidadbambu\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vic\Documents\Projects\TestingSoftware\ExtensibilidadBambu.git\Extensibilidadbambu\bin\Debug\RestSharp.xml
+C:\Users\vic\Documents\Projects\TestingSoftware\ExtensibilidadBambu.git\Extensibilidadbambu\obj\Debug\Extensibilidadbambu.exe
+C:\Users\vic\Documents\Projects\TestingSoftware\ExtensibilidadBambu.git\Extensibilidadbambu\obj\Debug\Extensibilidadbambu.pdb

@@ -53,23 +53,28 @@
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-    <Reference Include="Ionic.Zlib">
-      <HintPath>..\..\..\..\Downloads\Apache.NMS.ActiveMQ-1.7.1-bin\lib\DotNetZip\net-4.0\Ionic.Zlib.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>..\..\..\..\Downloads\Apache.NMS.ActiveMQ-1.7.1-bin\lib\NUnit\net-4.0\nunit.framework.dll</HintPath>
-    </Reference>
     <Reference Include="Apache.NMS">
-      <HintPath>..\..\..\..\Downloads\Apache.NMS.ActiveMQ-1.7.1-bin\lib\Apache.NMS\net-4.0\Apache.NMS.dll</HintPath>
+      <HintPath>Apache.NMS.dll</HintPath>
     </Reference>
     <Reference Include="Apache.NMS.ActiveMQ">
-      <HintPath>..\..\..\..\Downloads\Apache.NMS.ActiveMQ-1.7.1-bin\build\net-4.0\release\Apache.NMS.ActiveMQ.dll</HintPath>
+      <HintPath>Apache.NMS.ActiveMQ.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.3.0.1\lib\net40\nunit.framework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net4\RestSharp.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="com.extensibilidadbambu.activemq\ConectorActiveMQ.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="com.extensibilidadbambu.librerias\Rest.cs" />
+    <Compile Include="com.extensibilidadbambu.launchers\InsertarClienteEnCola.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -78,5 +83,6 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <Folder Include="com.extensibilidadbambu.librerias\" />
+    <Folder Include="com.extensibilidadbambu.launchers\" />
   </ItemGroup>
 </Project>
