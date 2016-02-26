@@ -7,6 +7,10 @@ namespace Extensibilidadbambu
 	{
 
 		private const string COLA_CONEXION = "cola.conexion";
+		private const string COLA_PEDIDO_NOMBRE = "cola.pedido.nombre";
+		private const string REST_PEDIDO_URL = "rest.pedido.url";
+		private const string URL_NIMBUS = "url.nimbus";
+
 
 		public Configuracion ()
 		{
@@ -15,6 +19,21 @@ namespace Extensibilidadbambu
 		public String colaConexion()
 		{
 			return ConfigurationManager.AppSettings [COLA_CONEXION];
+		}
+
+		public String colaPedidoNombre()
+		{
+			return ConfigurationManager.AppSettings [COLA_PEDIDO_NOMBRE];
+		}
+
+		public String restPedidoURL()
+		{
+			return ConfigurationManager.AppSettings [REST_PEDIDO_URL];
+		}
+
+		public String urlNimbus()
+		{
+			return ConfigurationManager.AppSettings [URL_NIMBUS];
 		}
 	}
 }

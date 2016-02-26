@@ -11,7 +11,7 @@ namespace ExtensibilidadbambuTest
 		public void TestCase ()
 		{
 			String []args = {"1","2"};
-			InsertarClienteEnCola.Main (args);
+			//InsertarClienteEnCola.Main (args);
 		}
 	}
 }
