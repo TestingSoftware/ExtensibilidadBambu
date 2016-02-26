@@ -5,12 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C728B39C-E4DE-4635-A750-9DB9D8A56A46}</ProjectGuid>
+    <ProjectGuid>{35BE0626-0FE9-4A52-BA2B-9F835A541B37}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>ExtensibilidadbambuTest</RootNamespace>
     <AssemblyName>ExtensibilidadbambuTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <CodePage>65001</CodePage>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,26 +34,26 @@
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="Apache.NMS">
+      <HintPath>..\Extensibilidadbambu\libs\Apache.NMS.dll</HintPath>
+    </Reference>
     <Reference Include="Apache.NMS.ActiveMQ">
       <HintPath>..\Extensibilidadbambu\libs\Apache.NMS.ActiveMQ.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="com.extensibilidadbambutest.main\Test.cs" />
-    <Compile Include="com.extensibilidadbambutest.main\ConsumirEInsertarPedidos.cs" />
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="InsertarClienteEnColaTest.cs" />
+    <Compile Include="ConsumirEInsertarPedidosCC.cs" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Extensibilidadbambu\Extensibilidadbambu.csproj">
       <Project>{6B21A2CD-5699-4637-ABEB-4AD06C044DB9}</Project>
       <Name>Extensibilidadbambu</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="com.extensibilidadbambutest.main\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-    <None Include="app.config" />
   </ItemGroup>
 </Project>

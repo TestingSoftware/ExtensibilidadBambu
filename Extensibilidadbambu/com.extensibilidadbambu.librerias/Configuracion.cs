@@ -10,7 +10,7 @@ namespace Extensibilidadbambu
 		private const string COLA_PEDIDO_NOMBRE = "cola.pedido.nombre";
 		private const string REST_PEDIDO_URL = "rest.pedido.url";
 		private const string URL_NIMBUS = "url.nimbus";
-
+		private const string ITEMS_BAMBU = "item.nimbus";
 
 		public Configuracion ()
 		{
@@ -34,6 +34,10 @@ namespace Extensibilidadbambu
 		public String urlNimbus()
 		{
 			return ConfigurationManager.AppSettings [URL_NIMBUS];
+		}
+		public String itemsNimbus()
+		{
+			return ConfigurationManager.AppSettings [ITEMS_BAMBU];
 		}
 	}
 }

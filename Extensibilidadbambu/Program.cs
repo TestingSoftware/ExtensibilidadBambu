@@ -8,6 +8,7 @@
  */
 using System;
 using Extensibilidadbambu.com.extensibilidadbambu.activemq;
+using Extensibilidadbambu.com.extensibilidadbambu.main;
 
 namespace Extensibilidadbambu
 {
@@ -20,6 +21,7 @@ namespace Extensibilidadbambu
 			do {
 				System.Console.WriteLine ("Lista de mains\n" +
 					"   1 - Consumir Pedido\n" +
+					"   2 - Obtener clientes \n"+
 					"Cualquier otro número o letra cerrará el programa...");
 				try {
 					int i = int.Parse (System.Console.ReadLine ());
@@ -34,6 +36,13 @@ namespace Extensibilidadbambu
 							ConsumirPedido cp = new ConsumirPedido ();
 							cp.Launcher (new Configuracion ().colaPedidoNombre (), new Configuracion ().restPedidoURL ());
 							System.Console.WriteLine ("Consumí pedidos y los inserté en la cola...");
+							break;
+						}
+					case 2:
+						{
+							InsertarClienteEnCola insertarClienteEnCola = new InsertarClienteEnCola();
+							insertarClienteEnCola.Launcher("CLIENTE", new Configuracion().urlNimbus(), new Configuracion().itemsNimbus());
+							System.Console.WriteLine ("Clientes obtenidos e insertados en la cola...");
 							break;
 						}
 
